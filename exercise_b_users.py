@@ -93,3 +93,4 @@ users = {
     }
   }
 }
+print(users["Paul"])
