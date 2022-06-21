@@ -1,3 +1,4 @@
+from audioop import reverse
 from tracemalloc import stop
 
 
@@ -19,9 +20,10 @@ stops.pop(2)
 # print(len(stops))
 # print(stops)
 #8. Sort the list alphabetically
-print(sorted(stops))
+# print(sorted(stops))
 #9. Reverse the positions of the stops in the list
-# print(stops.reverse)
+stops.reverse()
+print(stops)
 #10 Print out all the stops using a for loop
 
 
