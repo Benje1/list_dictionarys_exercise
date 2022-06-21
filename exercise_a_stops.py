@@ -21,7 +21,7 @@ print(stops)
 #8. Sort the list alphabetically
 print(stops.sort())
 #9. Reverse the positions of the stops in the list
-
+print(stops.reverse)
 #10 Print out all the stops using a for loop
 
 print(stops)
