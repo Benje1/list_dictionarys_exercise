@@ -22,11 +22,8 @@ stops.pop(2)
 #8. Sort the list alphabetically
 # print(sorted(stops))
 #9. Reverse the positions of the stops in the list
-stops.reverse()
-print(stops)
+# stops.reverse()
+# print(stops)
 #10 Print out all the stops using a for loop
-
-
-
-
-
+for stop in stops:
+     print(stop)
