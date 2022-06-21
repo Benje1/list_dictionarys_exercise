@@ -82,14 +82,14 @@ users["Erik"]["pets"] += [{
 }]
 print(users["Erik"]["pets"])
 # 10. Add another person to the users dictionary
-users += [{
+users = {
   "Paul": {
     "twitter": "Pauly Parrot",
     "lottery_numbers": [5, 23, 29, 30, 31, 32],
     "hometown": "Edinburgh",
     "pets": {
-      "name": "Cat"
+      "name": "Cat",
       "species": "Catfish",
     }
   }
-}]
+}
