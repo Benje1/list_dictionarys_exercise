@@ -16,15 +16,15 @@ stops.remove("Livingston")
 #6. Delete "Cumbernauld" from the list by index
 stops.pop(2)
 #7. Print the number of stops there are in the list
-len(stops)
-print(stops)
+# print(len(stops))
+# print(stops)
 #8. Sort the list alphabetically
-print(stops.sort())
+print(sorted(stops))
 #9. Reverse the positions of the stops in the list
-print(stops.reverse)
+# print(stops.reverse)
 #10 Print out all the stops using a for loop
 
-print(stops)
+
 
 
 
